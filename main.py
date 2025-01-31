@@ -70,8 +70,8 @@ def play(dataset, length, path):
                     file.write("*정답*\n\n")
                     count += 1
                 else:
-                    print("*오답*\n")
                     print("정 답: "+solution)
+                    print("*오답*\n")
                     file.write("*오답*\n\n")
                     
     with open(txt_path, "a", encoding="utf-8") as file:
@@ -103,7 +103,7 @@ def main():
     
     length = len(dataset)
     if args.daily_mode:
-        length = 1
+        length = 30
     
     play(dataset, length, save_folder_path)
         
