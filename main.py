@@ -5,12 +5,12 @@ import os
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--solution_path_list", nargs='+', default=[
-    r"english\Day1.txt",
-    r"english\Day2.txt"
+    # r"english\Day1.txt",
+    r"english\Day2.txt",
 ])
 parser.add_argument("--question_path_list", nargs='+', default=[
-    r"korean\Day1.txt",
-    r"korean\Day2.txt"
+    # r"korean\Day1.txt",
+    r"korean\Day2.txt",
 ])
 parser.add_argument("--daily_mode", action="store_true")
 parser.add_argument("--non_random_mode", action="store_true")
